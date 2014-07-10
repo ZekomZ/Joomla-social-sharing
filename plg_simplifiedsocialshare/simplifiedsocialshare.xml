@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content">
+    <name>Simplified Social Share</name>
+    <license>GNU/GPL</license>
+    <author>LoginRadius</author>
+    <authorEmail>developers@loginradius.com</authorEmail>
+    <authorUrl>http://www.loginradius.com</authorUrl>
+    <creationDate>2012-01-01</creationDate>
+    <copyright>2012 to till</copyright>
+    <version>3.6</version>
+    <description>LoginRadius enables social share for your joomla websites.</description>
+    <files>
+        <file plugin="simplifiedsocialshare">simplifiedsocialshare.php</file>
+        <file>simplifiedsocialshare.js</file>
+    </files>
+</extension>

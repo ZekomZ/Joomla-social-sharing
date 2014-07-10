@@ -1,0 +1,458 @@
+.loginRadiusProviders input {
+    margin: 0
+}
+
+.loginRadiusProviders {
+    width: 20%;
+    float: left;
+}
+
+.loginRadiusCounterProviders {
+    width: 25%;
+    float: left;
+}
+
+.socialTitle {
+    clear: none !important;
+    display: inline !important;
+    margin: 0 !important;
+    margin-left: 5px !important;
+}
+
+#horsortable li,
+#versortable li {
+    float: left !important;
+}
+
+div.current input, div.current textarea, div.current select {
+    float: none !important;
+}
+
+div.current {
+    clear: both;
+}
+
+.help_ul {
+    margin: 0 0 15px 25px;
+    padding: 0px;
+    float: left;
+    list-style: circle;
+}
+
+.help_ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 160%;
+}
+
+.stay_ul {
+    margin: 0 0 15px 10px;
+    padding: 0px;
+    float: left;
+    list-style: none;
+}
+
+.stay_ul li {
+    line-height: 160%;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.social_table .social_subhead {
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#Error {
+    background-image: url("../img/error.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    color: #FF0000;
+    height: 20px;
+    padding: 4px 2px 2px 30px;
+    background-color: #FEF5F1;
+    border: 1px solid #ED541D;
+    margin-bottom: 20px;
+}
+
+#loading {
+    background-image: url("../img/loading.gif");
+    background-repeat: no-repeat;
+    padding: 0px 2px 0px 30px;
+    margin-bottom: 20px;
+}
+
+#Success {
+    background-image: url("../img/ok.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    color: #669933;
+    height: 20px;
+    padding: 4px 2px 2px 30px;
+    background-color: #EAFFDC;
+    border: 1px solid #60CF4E;
+    margin-bottom: 20px;
+}
+
+.social_form {
+    padding: 0;
+    background-color: #fff;
+}
+
+.social_form a {
+    text-decoration: none !important;
+}
+
+.social_form .blank a {
+    text-decoration: none !important;
+    padding: 0 15px !important;
+    font-weight: bold;
+}
+
+.social_form a:hover {
+    text-decoration: none !important;;
+}
+
+.social_form legend {
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.social_form .social_row {
+    padding: 5px 10px;
+    font-size: 12px;
+    clear: both;
+    overflow: hidden;
+}
+
+.social_form .social_row_title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #00ccff;
+}
+
+.social_form .social_row_button {
+    background-color: #F6F6F6;
+    border-top: 1px dotted #ddd;
+    margin-top: 14px;
+    padding: 5px 10px;
+}
+
+.social_form .social_row_description {
+    padding: 5px 0 10px 10px;
+    font-weight: bold;
+    color: #00ccff;
+}
+
+.social_form_main {
+    background-color: #EAF7FF;
+}
+
+.social_form_main .social_row {
+    margin-bottom: 7px;
+}
+
+.social_form_main .social_row_button {
+    background-color: #EAF7FF;
+}
+
+.icon-48-configuration {
+    background-image: url("../img/configuration.gif");
+}
+
+.social_table {
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.social_table input {
+    border-color: #aaa;
+}
+
+.social_table .head {
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+.social_table th, .social_table label {
+    color: #222222;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.social_table th {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+}
+
+.social_table th, .social_table label {
+    font-weight: normal;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.social_table td {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 9px;
+    padding: 8px 10px;
+}
+
+.social_table td, textarea {
+    line-height: inherit;
+}
+
+.social_table td, textarea, input, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.social_table tr td.social_row {
+    line-height: 36px;
+}
+
+.social_table tr.description td {
+    color: #0D5995;
+}
+
+.social_table .social_row_white {
+    background-color: #fff;
+}
+
+.social_table th, .social_table label {
+    color: #222222;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.social_table th {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+}
+
+.social_table th, .social_table label {
+    font-weight: normal;
+    text-shadow: 0 1px 0 #FFFFFF;
+    margin-top: 15px;
+}
+
+#registration-container label {
+    float: left;
+    font-weight: bold;
+    margin: 0;
+}
+
+#registration-container #recaptcha_widget {
+    display: block;
+    background: #EBEBEB;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    width: 300px;
+    height: 118px;
+    margin-left: 200px;
+}
+
+#registration-container .recaptcha_input {
+    margin-top: 10px;
+    width: 220px;
+    float: left;
+}
+
+#registration-container #recaptcha_response_field {
+    width: 200px;
+}
+
+#registration-container .loginradius-aia-submit,
+#login-container .loginradius-aia-submit {
+    margin-left: 200px;
+    margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#registration-container .recaptcha_options li {
+    float: left;
+    margin: 35.7px 0.7px 0px 0px;
+    list-style: none;
+}
+
+#registration-container .captcha_hide {
+    display: none;
+}
+
+#registration-container #validation-loginradius-aia-registration-recaptcha_response_field {
+    clear: both;
+}
+
+#registration-container input[type="text"],
+#login-container input[type="text"],
+#login-container input[type="password"] {
+    width: 308px;
+	padding: 6px;
+}
+
+#login-container label {
+    float: left;
+    font-weight: bold;
+}
+
+.loginradius-aia-validation-message {
+    color: #ff0000;
+}
+
+#sharevertical label {
+    margin-right: 10px;
+    float: left;
+    padding-right: 25px;
+}
+
+input#apikey {
+    width: 300px;
+}
+
+#apititle {
+    width: 100px;
+    float: left;
+    padding: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 !important;
+}
+
+#horsortable,
+#versortable {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#sharehorizontal,
+#sharevertical {
+    border: 1px solid #CCC;
+}
+
+#validation-loginradius-aia-registration-emailid,
+#validation-loginradius-aia-registration-appname,
+#validation-loginradius-aia-registration-recaptcha_response_field,
+#validation-loginradius-aia-login-emailid,
+#validation-loginradius-aia-login-password,
+#validation-loginradius-aia-login-password,
+#validation-loginradius-aia-login-emailid {
+    display: none;
+}
+
+.content-loginradius-aia-emailid label,
+.content-loginradius-aia-appname label,
+.content-loginradius-aia-password label {
+    width: 200px;
+    margin: 0;
+}
+
+.social_left_section {
+    float: left;
+    width: 70%;
+}
+
+.social_right_section {
+    float: right;
+    width: 29%;
+}
+
+.social_right_box {
+    background: #EAF7FF;
+    border: 1px solid #B3E2FF;
+    overflow: auto;
+    margin: 0 0 10px 0;
+}
+
+.social_right_box_one {
+    border-bottom: #000000 1px solid;
+    margin: 0px;
+    padding: 0 0 6px 0;
+    border-bottom: 1px solid #B3E2FF;
+    color: #000000;
+    margin: 10px;
+}
+
+.social_right_box_two {
+    line-height: 19px;
+    font-size: 12px !important;
+    margin: 10px !important;
+}
+
+.social_clear {
+    clear: both;
+}
+
+.social_thanks_section {
+    background: #EAF7FF;
+    border: 1px solid #B3E2FF;
+}
+
+.social_thanks_subtitle {
+    width: 90%;
+    line-height: 160%;
+}
+
+#registration_form_link,
+#login_form_link {
+    margin-top: -10px;
+    margin-left: 200px;
+}
+
+#sharehorizontal label img {
+    margin-left: 10px;
+	margin-top: 20px;
+}
+
+.vertical {
+    position: absolute;
+    border-bottom: 8px solid #dddddd;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    margin: -18px 0 0 106px;
+}
+
+.horizontal {
+    position: absolute;
+    border-bottom: 8px solid #dddddd;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    margin: -18px 0 0 2px;
+}
+
+#sharehorizontal input#chori32 {
+	vertical-align: middle !important;
+	margin-top: -57px !important;
+}
+
+#sharehorizontal input#horithemesmall,
+#sharehorizontal input#hori16 {
+	vertical-align: middle;
+	margin-top: -10px !important;
+}
+
+#sharehorizontal input#chori16,
+#sharehorizontal input#horithemelarge {
+	vertical-align: middle !important;
+	margin-top: -16px !important;
+}
+
+#sharehorizontal input#hori32 {
+	vertical-align: middle;
+	margin-top: -27px !important;
+}
