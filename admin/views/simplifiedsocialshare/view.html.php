@@ -24,6 +24,12 @@ class SimplifiedSocialShareViewSimplifiedSocialShare extends JViewLegacy
         $document->addScript('//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js');
         $model = $this->getModel();
         $this->settings = $this->initialSetting($model);
+        
+        $document->addScriptDeclaration('$(function(){$("#horsortable").sortable({revert: true});});');
+        $document->addScriptDeclaration('$(function(){$("#versortable").sortable({revert: true});});');
+        $document->addScript('components/com_simplifiedsocialshare/assets/simplifiedsocialshare.php?url=' . urlencode(json_encode($this->settings['horizontal_rearrange']) . '/' . json_encode($this->settings['vertical_rearrange']) . '/' . json_encode($this->settings['horizontalcounter']) . '/' . json_encode($this->settings['verticalcounter'])));
+        $document->addScript(JURI::root().'plugins/content/simplifiedsocialshare/simplifiedsocialshare.js');
+        
         $this->rows = $this->selectArticles();
         $this->form = $this->get('Form');
         $this->addToolbar();
@@ -65,16 +71,6 @@ class SimplifiedSocialShareViewSimplifiedSocialShare extends JViewLegacy
         $settings['verticalsharepos'] = (isset($settings['verticalsharepos']) ? $settings['verticalsharepos'] : "");
         $settings['verticalArticles'] = (isset($settings['verticalArticles']) ? @unserialize($settings['verticalArticles']) : "");
         $settings['horizontalArticles'] = (isset($settings['horizontalArticles']) ? @unserialize($settings['horizontalArticles']) : "");
-        if (!empty($settings['apikey'])) {
-            $document = JFactory::getDocument();
-            $document->addScriptDeclaration('$(function(){$("#horsortable").sortable({revert: true});});');
-            $document->addScriptDeclaration('$(function(){$("#versortable").sortable({revert: true});});');
-            $document->addScript('components/com_simplifiedsocialshare/assets/simplifiedsocialshare.php?url=' . urlencode(json_encode($settings['horizontal_rearrange']) . '/' . json_encode($settings['vertical_rearrange']) . '/' . json_encode($settings['horizontalcounter']) . '/' . json_encode($settings['verticalcounter'])));
-        } else {
-            $document = JFactory::getDocument();
-            $document->addScript('//hub.loginradius.com/cdn/Include/js/LoginRadius.1.0.js');
-            $document->addScriptDeclaration($model->apiRegistration(JFactory::getUser()->get('email')));
-        }
         return $settings;
     }
 
@@ -86,7 +82,7 @@ class SimplifiedSocialShareViewSimplifiedSocialShare extends JViewLegacy
         JRequest::setVar('hidemainmenu', false);
         JToolBarHelper::title(JText::_('COM_SIMPLIFIEDSOCIALSHARE').' '.JText::_('Component'), 'configuration.gif');
         JToolBarHelper::apply('apply');
-        JToolBarHelper::save($task = 'save', $alt = 'JTOOLBAR_SAVE');
+        JToolBarHelper::save('save', 'JTOOLBAR_SAVE');
         JToolBarHelper::cancel('cancel');
     }
 }

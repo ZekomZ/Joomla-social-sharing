@@ -120,7 +120,7 @@ class com_SimplifiedSocialShareInstallerScript
                     <?php echo JText::_('COM_SIMPLIFIEDSOCIALSHARE'); ?>
                 </a>
                 <?php echo JText::_('COM_SOCIAL_SHARE_INSTALLATION_FREE'); ?>
-                <a href="https://www.loginradius.com/loginradius/contact" target="_blank">
+                <a href="http://ish.re/H9SF" target="_blank">
                     <?php echo JText::_('COM_SOCIAL_SHARE_INSTALLATION_CONTACT'); ?></a>
                 <?php echo JText::_('COM_SOCIAL_SHARE_INSTALLATION_ASSIST'); ?>
                 <strong><?php echo JText::_('COM_SOCIAL_SHARE_INSTALLATION_THANKYOU'); ?></strong>

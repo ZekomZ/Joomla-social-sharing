@@ -13,11 +13,10 @@ jimport('joomla.html.html.tabs');
                         <h3><?php echo JText::_('COM_SOCIAL_SHARE_THANK'); ?></h3>
                     </div>
                     <div class="social_row social_thanks_subtitle">
-                        <a href="http://www.loginradius.com" target="_blank">LoginRadius</a>
                         <?php echo JText::_('COM_SOCIAL_SHARE_THANK_BLOCK_PROVIDER'); ?>
                         <a href="http://ish.re/9RZM" target="_blank"><?php echo JText::_('COM_SOCIAL_SHARE_THANK_BLOCK_SOCIALLOGIN'); ?></a>,
                         <a href="http://ish.re/9RZO" target="_blank"><?php echo JText::_('COM_SOCIAL_SHARE_THANK_BLOCK_SOCIALSHARE'); ?></a>,
-                        <a href="http://ish.re/9RZQ" target="_blank"><?php echo JText::_('COM_SOCIAL_SHARE_THANK_BLOCK_SOCIALINVITE'); ?></a>,
+                        <a href="http://ish.re/HNIA" target="_blank"><?php echo JText::_('COM_SOCIAL_SHARE_THANK_BLOCK_SOCIALINVITE'); ?></a>,
                         <a href="http://ish.re/83Y8" target="_blank"><?php echo JText::_('COM_SOCIAL_SHARE_THANK_BLOCK_USERDATE'); ?></a>,
                         <a href="http://ish.re/83Y8" target="_blank"><?php echo JText::_('COM_SOCIAL_SHARE_THANK_BLOCK_PROFILEACCESS'); ?></a>,
                         <a href="http://ish.re/9RZS" target="_blank"><?php echo JText::_('COM_SOCIAL_SHARE_THANK_BLOCK_SIGNON'); ?></a>,
@@ -45,11 +44,7 @@ jimport('joomla.html.html.tabs');
 
             <!-- Start simplified social share -->
             <?php
-            if (!empty($this->settings['apikey'])) {
                 echo $this->loadTemplate('config');
-            } else {
-                echo $this->loadTemplate('login');
-            }
             ?>
             <!-- End simplified social share -->
         </div>

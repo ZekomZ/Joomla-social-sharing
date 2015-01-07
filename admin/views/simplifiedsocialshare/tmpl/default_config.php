@@ -9,6 +9,7 @@ $horizontalThemeLarge = "";
 $horizontalThemeSmall = "";
 $horizontalCounter32 = "";
 $horizontalCounter16 = "";
+$responcive = "";
 $enableVerticalShare = "";
 $disableVerticalShare = "";
 $topLeft = "";
@@ -30,6 +31,7 @@ else if ($this->settings['choosehorizontalshare'] == '2') $horizontalThemeLarge 
 else if ($this->settings['choosehorizontalshare'] == '3') $horizontalThemeSmall = "checked='checked'";
 else if ($this->settings['choosehorizontalshare'] == '4') $horizontalCounter16 = "checked='checked'";
 else if ($this->settings['choosehorizontalshare'] == '5') $horizontalCounter32 = "checked='checked'";
+else if ($this->settings['choosehorizontalshare'] == '6') $responcive = "checked='checked'";
 else $horizontalTheme32 = "checked='checked'";
 
 if ($this->settings['chooseverticalshare'] == '0') $verticalTheme32 = "checked='checked'";
@@ -55,10 +57,11 @@ else $topLeft = "checked='checked'";
         <th class="head" colspan="2"><?php echo JText::_('COM_SOCIAL_SHARE_SOCIAL_SHARE'); ?></th>
     </tr>
     <tr class="social_row_white">
-        <td colspan="2"><span class="social_subhead"><?php echo JText::_('COM_SOCIAL_SHARE_API_SETTING'); ?></span><br/><br/>
-            <div>
+        <td colspan="2">
+            <div style="border-bottom: 1px solid #ddd;padding: 10px 0px;">
                 <div id="apititle"><span class="social_subhead"><?php echo JText::_('COM_SOCIAL_SHARE_APIKEY_TITLE'); ?></span></div>
                 <div id="apiinbox"><input name="settings[apikey]" type="text" id="apikey" value="<?php echo $this->settings['apikey']; ?>"/></div>
+                <div class="apihelp"><?php echo JText::_('COM_SOCIAL_SHARE_API_SETTING_HELP'); ?></div>
             </div>
         </td>
     </tr>
@@ -83,23 +86,27 @@ else $topLeft = "checked='checked'";
             <label for="hori32">
                 <input name="settings[choosehorizontalshare]" id="hori32" onclick="createHorzontalShareProvider();" type="radio" <?php echo $horizontalTheme32; ?>value="0"/>
                 <img src='<?php echo "components/com_simplifiedsocialshare/assets/img/horizonSharing32.png" ?>'/>
-            </label><br>
+            </label>
             <label for="hori16">
                 <input name="settings[choosehorizontalshare]" id="hori16" onclick="createHorzontalShareProvider();" type="radio" <?php echo $horizontalTheme16; ?>value="1"/>
                 <img src='<?php echo "components/com_simplifiedsocialshare/assets/img/horizonSharing16.png" ?>'/>
-            </label><br>
+            </label>
+            <label for="responcive">
+                <input name="settings[choosehorizontalshare]" id="responcive" onclick="createHorzontalShareProvider();" type="radio" <?php echo $responcive; ?>value="6"/>
+                <img src='<?php echo "components/com_simplifiedsocialshare/assets/img/responsive-icons.png" ?>'/>
+            </label>
             <label for="horithemelarge">
                 <input name="settings[choosehorizontalshare]" id="horithemelarge" onclick="singleImgShareProvider();" type="radio" <?php echo $horizontalThemeLarge; ?>value="2"/>
                 <img src='<?php echo "components/com_simplifiedsocialshare/assets/img/single-image-theme-large.png" ?>'/>
-            </label><br>
+            </label>
             <label for="horithemesmall">
                 <input name="settings[choosehorizontalshare]" id="horithemesmall" onclick="singleImgShareProvider();" type="radio" <?php echo $horizontalThemeSmall; ?>value="3"/>
                 <img src='<?php echo "components/com_simplifiedsocialshare/assets/img/single-image-theme-small.png" ?>'/>
-            </label><br>
+            </label>
             <label for="chori16">
                 <input name="settings[choosehorizontalshare]" id="chori16" onclick="createHorizontalCounterProvider();" type="radio" <?php echo $horizontalCounter16; ?>value="4"/>
                 <img src='<?php echo "components/com_simplifiedsocialshare/assets/img/hybrid-horizontal-horizontal.png" ?>'/>
-            </label><br>
+            </label>
             <label for="chori32">
                 <input name="settings[choosehorizontalshare]" id="chori32" onclick="createHorizontalCounterProvider();" type="radio" <?php echo $horizontalCounter32; ?>value="5"/>
                 <img src='<?php echo "components/com_simplifiedsocialshare/assets/img/hybrid-horizontal-vertical.png" ?>'/>
@@ -124,7 +131,7 @@ else $topLeft = "checked='checked'";
         </div>
 
         <!--select share provider checkboxes-->
-        <div style="overflow:auto; background:#FFFFFF; padding:10px;display:<?php if ($this->settings['choosehorizontalshare'] == '' || $this->settings['choosehorizontalshare'] == '0' || $this->settings['choosehorizontalshare'] == '1') {
+        <div style="overflow:auto; background:#FFFFFF; padding:10px;display:<?php if (in_array($this->settings['choosehorizontalshare'], array('','0','1','6'))) {
                 echo 'block';
             } else {
                 echo 'none';
@@ -135,7 +142,7 @@ else $topLeft = "checked='checked'";
             <div id="sharehprovider" class="row_white"></div>
         </div>
         <!--select rearrange icon for social share-->
-        <div style="overflow:auto; background:#FFFFFF; padding:10px;display:<?php if ($this->settings['choosehorizontalshare'] == '' || $this->settings['choosehorizontalshare'] == '0' || $this->settings['choosehorizontalshare'] == '1') {
+        <div style="overflow:auto; background:#FFFFFF; padding:10px;display:<?php if (in_array($this->settings['choosehorizontalshare'], array('','0','1','6'))) {
                 echo 'block';
             } else {
                 echo 'none';

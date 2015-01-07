@@ -7,7 +7,7 @@
     <authorUrl>http://www.loginradius.com</authorUrl>
     <creationDate>2012-01-01</creationDate>
     <copyright>2013, LoginRadius</copyright>
-    <version>3.6</version>
+    <version>3.7</version>
     <description></description>
 
     <!-- Installation -->
@@ -51,32 +51,6 @@
         <languages folder="admin/language">
             <language tag="en-GB">en-GB/en-GB.com_simplifiedsocialshare.ini</language>
             <language tag="en-GB">en-GB/en-GB.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="fr-FR">fr-FR/fr-FR.com_simplifiedsocialshare.ini</language>
-            <language tag="fr-FR">fr-FR/fr-FR.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="es-ES">es-ES/es-ES.com_simplifiedsocialshare.ini</language>
-            <language tag="es-ES">es-ES/es-ES.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="ru-RU">ru-RU/ru-RU.com_simplifiedsocialshare.ini</language>
-            <language tag="ru-RU">ru-RU/ru-RU.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="it-IT">it-IT/it-IT.com_simplifiedsocialshare.ini</language>
-            <language tag="it-IT">it-IT/it-IT.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="de-DE">de-DE/de-DE.com_simplifiedsocialshare.ini</language>
-            <language tag="de-DE">de-DE/de-DE.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="da-DK">da-DK/da-DK.com_simplifiedsocialshare.ini</language>
-            <language tag="da-DK">da-DK/da-DK.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="el-GR">el-GR/el-GR.com_simplifiedsocialshare.ini</language>
-            <language tag="el-GR">el-GR/el-GR.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="uk-UA">uk-UA/uk-UA.com_simplifiedsocialshare.ini</language>
-            <language tag="uk-UA">uk-UA/uk-UA.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="nl-NL">nl-NL/nl-NL.com_simplifiedsocialshare.ini</language>
-            <language tag="nl-NL">nl-NL/nl-NL.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="et-EE">et-EE/et-EE.com_simplifiedsocialshare.ini</language>
-            <language tag="et-EE">et-EE/et-EE.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="pl-PL">pl-PL/pl-PL.com_simplifiedsocialshare.ini</language>
-            <language tag="pl-PL">pl-PL/pl-PL.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="pt-PT">pt-PT/pt-PT.com_simplifiedsocialshare.ini</language>
-            <language tag="pt-PT">pt-PT/pt-PT.com_simplifiedsocialshare.sys.ini</language>
-            <language tag="ro-RO">ro-RO/ro-RO.com_simplifiedsocialshare.ini</language>
-            <language tag="ro-RO">ro-RO/ro-RO.com_simplifiedsocialshare.sys.ini</language>
         </languages>
         <!-- End Admin Languages -->
     </administration>
@@ -84,32 +58,6 @@
     <languages folder="language">
         <language tag="en-GB">en-GB/en-GB.mod_simplifiedsocialshare.ini</language>
         <language tag="en-GB">en-GB/en-GB.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="fr-FR">fr-FR/fr-FR.mod_simplifiedsocialshare.ini</language>
-        <language tag="fr-FR">fr-FR/fr-FR.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="es-ES">es-ES/es-ES.mod_simplifiedsocialshare.ini</language>
-        <language tag="es-ES">es-ES/es-ES.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="ru-RU">ru-RU/ru-RU.mod_simplifiedsocialshare.ini</language>
-        <language tag="ru-RU">ru-RU/ru-RU.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="it-IT">it-IT/it-IT.mod_simplifiedsocialshare.ini</language>
-        <language tag="it-IT">it-IT/it-IT.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="de-DE">de-DE/de-DE.mod_simplifiedsocialshare.ini</language>
-        <language tag="de-DE">de-DE/de-DE.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="da-DK">da-DK/da-DK.mod_simplifiedsocialshare.ini</language>
-        <language tag="da-DK">da-DK/da-DK.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="el-GR">el-GR/el-GR.mod_simplifiedsocialshare.ini</language>
-        <language tag="el-GR">el-GR/el-GR.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="uk-UA">uk-UA/uk-UA.mod_simplifiedsocialshare.ini</language>
-        <language tag="uk-UA">uk-UA/uk-UA.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="nl-NL">nl-NL/nl-NL.mod_simplifiedsocialshare.ini</language>
-        <language tag="nl-NL">nl-NL/nl-NL.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="et-EE">et-EE/et-EE.mod_simplifiedsocialshare.ini</language>
-        <language tag="et-EE">et-EE/et-EE.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="pl-PL">pl-PL/pl-PL.mod_simplifiedsocialshare.ini</language>
-        <language tag="pl-PL">pl-PL/pl-PL.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="pt-PT">pt-PT/pt-PT.mod_simplifiedsocialshare.ini</language>
-        <language tag="pt-PT">pt-PT/pt-PT.mod_simplifiedsocialshare.sys.ini</language>
-        <language tag="ro-RO">ro-RO/ro-RO.mod_simplifiedsocialshare.ini</language>
-        <language tag="ro-RO">ro-RO/ro-RO.mod_simplifiedsocialshare.sys.ini</language>
     </languages>
     <!-- End Site Languages -->
     <!-- Start Plugins -->
