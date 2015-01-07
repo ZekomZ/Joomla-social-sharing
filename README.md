@@ -1,9 +1,9 @@
-​Social Sharing for Joomla
+Social Sharing for Joomla
 ===========================
 
 This module enables Social Sharing on your Joomla site using popular social networks such as Facebook, Google, Twitter, LinkedIn, Vkontakte and over 50 more.
-Social Sharing
 
+Social Sharing
 ============
 
 Make your users your brand ambassadors and drive high quality referrals to your website - 82% of users consider buying or trying products and services based on their friends’ recommendations. With social share, you give users the tools to share your content, product details and other information with their own networks.
@@ -12,7 +12,6 @@ More than 22 billion shares are viewed each and every day on the internet, with 
 
 
 Features
-
 ==========
 
 - Options to add social sharing widget on homepage, posts, feeds, content pages, etc.
@@ -27,7 +26,6 @@ Features
 - 24/7 community support, rich knowledge base, and active discussion forum
 
 Live Product Demo
-
 ==========
 
 http://demo.loginradius.com
