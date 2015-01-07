@@ -15,7 +15,7 @@ Features
 ==========
 
 - Options to add social sharing widget on homepage, posts, feeds, content pages, etc.
-- Compatible with JomSocial, Community Builder, Jcomment, JomFish, Kunena, K2 content management, VirtueMart
+- Compatible with JomSocial, Community Builder, Jcomment, JomFish, Kunena, VirtueMart
 - Choose from many social sharing themes design
 - Users can share content on over 50 social networks, can send content via email or can print
 - A clean, user friendly WP admin U/I with tab structure with various options for social sharing
